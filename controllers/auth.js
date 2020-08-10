@@ -5,7 +5,7 @@ const Usuario = require('../models/usuario');
 const { generarJWT } = require('../helpers/jwt');
 
 
-const login = async( req, res = response ) => {
+const login = async ( req, res = response ) => {
 
     const { email, password } = req.body;
 
