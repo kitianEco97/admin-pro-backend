@@ -17,6 +17,9 @@ app.use( express.json() );
 dbConnection();
 // console.log( process.env );
 
+// Directorio público  -  aplicando un middleware
+app.use( express.static('public') );
+
 //  dbKitianUser // dbUserMongo
 //  YW057LEmtylYkv8j // password 
 
